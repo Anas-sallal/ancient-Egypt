@@ -1,15 +1,40 @@
 * {
-    color: #fff
+    color: white;
+    font-family: 'Cairo', sans-serif, Arial;
 }
 
 body {
-    background-color: #DEB887;
+    background-color: burlywood;
     margin: 0;
     padding: 0;
+    direction: rtl;
 }
 
 header {
-    background-color: #d19a52;
-    padding: 10px 0;
+    background-color: brown;
+    padding: 5px;
     text-align: center;
+    border-radius: 0 0 50px 50px;
+}
+
+nav ul {
+    list-style: none;
+    font-size: large;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    border-radius: 5px;
+    padding: 7px 10px;
+    transition: background-color 0.5s;
+}
+
+nav ul li:hover {
+    background-color: rgb(175, 65, 65);
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
 }
